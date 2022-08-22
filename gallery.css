@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+    text-decoration-color: limegreen;
+}
+nav {
+	display: flex; /* 1 */
+	justify-content: space-between; /* 2 */
+	padding: 1rem 2rem; /* 3 */
+	background: #000000; /* 4 */
+    font-family: monospace;
+    font-size: larger;
+    color: rgb(15, 238, 11)
+  }
+  
+  nav ul {
+	display: flex; /* 5 */
+	list-style: none; /* 6 */
+  }
+  
+  nav li {
+	padding-left: 1rem; /* 7! */
+    background-color: black;
+  }
+  nav a {
+	text-decoration: none;
+	color:rgb(15, 238, 11)
+  
+  }
+
+
+  .container {
+    background-color: black;
+    font-family: monospace;
+    color:rgb(15, 238, 11) ;
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+  }
+  
+  .container img {
+    background-color: black;
+	width: 100%;
+	height: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: monospace;
+    color:rgb(15, 238, 11)
+    background-color: black;
+
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header {
+    height: 40px;
+    padding: 20px 20px 0;
+    background: #e1e1e1;
+  }
+  .main-content {
+    height: 60vh;
+    padding: 20px;
+  }
+  footer {
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    color: rgb(15, 238, 11)
+  }
+  a {
+    color: #00aaff;
+  }

@@ -1,0 +1,63 @@
+
+  body {
+    background-image: url("maxresdefault.jpg");
+    opacity: 100%;
+    font-family: monospace;
+    align-content: center;
+    color: white;
+    text-align: justify;
+  }
+
+  h1 {
+    text-shadow: 2px 2px 5px red;
+  }
+
+      nav {
+        display: flex; /* 1 */
+        justify-content: space-between; /* 2 */
+        padding: 1rem 2rem; /* 3 */
+        background: #1c1f1b; /* 4 */
+        opacity: 50%;
+        font-size: large;
+      }
+      
+      nav ul {
+        display: flex; /* 5 */
+        list-style: none; /* 6 */
+      }
+      
+      nav li {
+        padding-left: 1rem; /* 7! */
+      }
+      nav a {
+        text-decoration: none;
+        color:white
+      
+      }
+iframe {
+    align-items: center;
+}
+
+.P2 {
+
+font-size: medium;
+font-family: monospace;
+color: white;
+
+}
+
+/* 
+  Extra small devices (phones, 600px and down) 
+*/
+@media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    nav ul {
+      flex-direction: column;
+      padding-top: 0.5rem;
+    }
+    nav li {
+      padding: 0.5rem 0;
+    }
+  } 
